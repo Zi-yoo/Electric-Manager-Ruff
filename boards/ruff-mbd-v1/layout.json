@@ -1,0 +1,31 @@
+{
+    "mapping": {
+        "HIS1/vcc": "ruff-mbd-v1/vdd-8",
+        "HIS1/gnd": "ruff-mbd-v1/gnd-0",
+        "HIS1/gpio": "ruff-mbd-v1/gpio-11",
+        "HIS2/vcc": "ruff-mbd-v1/vdd-9",
+        "HIS2/gnd": "ruff-mbd-v1/gnd-1",
+        "HIS2/gpio": "ruff-mbd-v1/gpio-12",
+        "HIS3/vcc": "ruff-mbd-v1/vdd-10",
+        "HIS3/gnd": "ruff-mbd-v1/gnd-2",
+        "HIS3/gpio": "ruff-mbd-v1/gpio-13",
+        "R1/vcc": "ruff-mbd-v1/vdd-0",
+        "R1/gnd": "ruff-mbd-v1/gnd-3",
+        "R1/gpio": "ruff-mbd-v1/gpio-14",
+        "R2/vcc": "ruff-mbd-v1/vdd-1",
+        "R2/gnd": "ruff-mbd-v1/gnd-4",
+        "R2/gpio": "ruff-mbd-v1/gpio-18",
+        "R3/vcc": "ruff-mbd-v1/vdd-2",
+        "R3/gnd": "ruff-mbd-v1/gnd-5",
+        "R3/gpio": "ruff-mbd-v1/gpio-26",
+        "CS1/adc": "ruff-mbd-v1/an-0",
+        "CS1/power": "ruff-mbd-v1/vdd-11",
+        "CS1/ground": "ruff-mbd-v1/gnd-6",
+        "CS2/adc": "ruff-mbd-v1/an-1",
+        "CS2/power": "ruff-mbd-v1/vdd-8",
+        "CS2/ground": "ruff-mbd-v1/gnd-7",
+        "CS3/adc": "ruff-mbd-v1/an-2",
+        "CS3/power": "ruff-mbd-v1/vdd-9",
+        "CS3/ground": "ruff-mbd-v1/gnd-8"
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "devices": [
+        {
+            "id": "HIS1",
+            "model": "HC-SR501",
+            "driver": "hc-sr501",
+            "power": {
+                "name": "vcc",
+                "voltage": "5v"
+            },
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        },
+        {
+            "id": "HIS2",
+            "model": "HC-SR501",
+            "driver": "hc-sr501",
+            "power": {
+                "name": "vcc",
+                "voltage": "5v"
+            },
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        },
+        {
+            "id": "HIS3",
+            "model": "HC-SR501",
+            "driver": "hc-sr501",
+            "power": {
+                "name": "vcc",
+                "voltage": "5v"
+            },
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        },
+        {
+            "id": "R1",
+            "model": "RELAY-1C",
+            "driver": "relay-1c",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "out",
+                        "level": "high"
+                    }
+                }
+            }
+        },
+        {
+            "id": "R2",
+            "model": "RELAY-1C",
+            "driver": "relay-1c",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "out",
+                        "level": "high"
+                    }
+                }
+            }
+        },
+        {
+            "id": "R3",
+            "model": "RELAY-1C",
+            "driver": "relay-1c",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "out",
+                        "level": "high"
+                    }
+                }
+            }
+        },
+        {
+            "id": "CS1",
+            "model": "CS1",
+            "driver": "acs712",
+            "inputs": {
+                "adc": {
+                    "type": "adc"
+                },
+                "power": {
+                    "type": "power",
+                    "args": {
+                        "voltage": "5v"
+                    }
+                },
+                "ground": {
+                    "type": "ground"
+                }
+            }
+        },
+        {
+            "id": "CS2",
+            "model": "CS2",
+            "driver": "acs712",
+            "inputs": {
+                "adc": {
+                    "type": "adc"
+                },
+                "power": {
+                    "type": "power",
+                    "args": {
+                        "voltage": "5v"
+                    }
+                },
+                "ground": {
+                    "type": "ground"
+                }
+            }
+        },
+        {
+            "id": "CS3",
+            "model": "CS3",
+            "driver": "acs712",
+            "inputs": {
+                "adc": {
+                    "type": "adc"
+                },
+                "power": {
+                    "type": "power",
+                    "args": {
+                        "voltage": "5v"
+                    }
+                },
+                "ground": {
+                    "type": "ground"
+                }
+            }
+        }
+    ]
+}

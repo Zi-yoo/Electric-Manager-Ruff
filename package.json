@@ -1,0 +1,19 @@
+{
+    "name": "powersaving",
+    "version": "0.1.0",
+    "description": "aiteng power saving iot project",
+    "author": "She Anbang",
+    "main": "src/index.js",
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.2.2",
+            "*": "*"
+        },
+        "dependencies": {
+            "hc-sr501": "^2.0.5",
+            "relay-1c": "^2.0.5",
+            "acs712": "*"
+        },
+        "version": 1
+    }
+}
